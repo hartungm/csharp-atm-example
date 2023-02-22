@@ -61,6 +61,8 @@ static void main() {
         }
 
     }
+    
+    Console.WriteLine("Goodbye!");
 }
 
 // This function takes the account balance as a parameter, and returns it modified after the withdrawal.

@@ -20,7 +20,7 @@ static void main() {
 
         switch(choice) {
             case 1:
-                Console.WriteLine(" (1) Checking or  (2) Savings?");
+                Console.WriteLine(" (1) Checking or (2) Savings?");
                 int wanswer = int.Parse(Console.ReadLine());
                 if(wanswer == 1) {
                     withdrawMoney(checking);
@@ -31,7 +31,7 @@ static void main() {
                 }
                 break;
             case 2:
-                Console.WriteLine(" (1) Checking or  (2) Savings?");
+                Console.WriteLine(" (1) Checking or (2) Savings?");
                 int danswer = int.Parse(Console.ReadLine());
                 if(danswer == 1) {
                     depositMoney(checking);
@@ -42,7 +42,7 @@ static void main() {
                 }
                 break;
             case 3:
-                Console.WriteLine(" (1) Checking or  (2) Savings?");
+                Console.WriteLine(" (1) Checking or (2) Savings?");
                 int canswer = int.Parse(Console.ReadLine());
                 if(canswer == 1) {
                     Console.WriteLine("Your Checking Balance is: " + checking);
@@ -61,7 +61,7 @@ static void main() {
         }
 
     }
-    
+
     Console.WriteLine("Goodbye!");
 }
 
